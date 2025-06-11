@@ -1,0 +1,30 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files
+test-files/
+*.log
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Python packages
+*.egg-info/
+dist/
+build/
