@@ -59,5 +59,8 @@
     "error_cannot_delete_empty_dir": "无法删除空目录 '{subdir}': {error}",
     "error_processing_subdir": "处理子目录 '{subdir}' 时出错: {error}",
     "error_dir_scan_reverse": "撤销操作的目录扫描错误: {error}",
-    "language_label": "语言:"
+    "language_label": "语言:",
+    "status_scanning_dirs": "正在扫描目录...",
+    "error_invalid_directory": "错误：无效的目录 '{directory}'",
+    "confirm_reverse_simple": "您确定要撤销整理吗？这将把 {subdir_count} 个子目录中的 {total_files} 个文件移回主目录。"
 }

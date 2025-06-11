@@ -1,30 +1,40 @@
-# Python bytecode
+# Python
 __pycache__/
 *.py[cod]
-
-# Virtual environments
-.venv/
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# IDE and editor files
-.DS_Store
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Test files
-test-files/
-*.log
-
-# Jupyter Notebook files
-.ipynb_checkpoints
-
-# Python packages
+*$py.class
+*.so
 *.egg-info/
 dist/
 build/
+*.egg
+*.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Packaging
+MANIFEST
+
+# Local development
+.env
+.env.local
